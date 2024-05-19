@@ -23,6 +23,11 @@ function processArray(array) {
             result.push(array[i] * 3);
         }
     }
-    
+var inputStrings = ["Hello", "World", "JavaScript", "Programming"];
+var inputNumbers = [1, 2, 3, 4, 5];
+var processedNumbers = processArray(inputNumbers);
+var formattedStrings = formatArrayStrings(inputStrings, processedNumbers);
+console.log(formattedStrings);
+
     return result;
 }
